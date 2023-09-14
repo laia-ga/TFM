@@ -15,8 +15,6 @@ function [trainedModel, validationMSE] = trainRegressionModel(trainingData)
 %      trainedModel.predictFcn: A function to make predictions on new data.
 %
 %      validationMSE: Matriz con los MSE de validación para cada fold
-%
-
 
 % Extract predictors and response
 % This code processes the data into the right shape for training the
